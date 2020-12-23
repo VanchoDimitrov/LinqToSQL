@@ -5,6 +5,17 @@ VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToSQL", "LinqToSQL.csproj", "{FF81CB45-6A39-46CD-8251-A8A9A0F780E8}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19.PLINQ-Introduction", "..\ParallelProgrammingWithCSharp\19.PLINQ-Introduction\19.PLINQ-Introduction.csproj", "{B9741A27-CF45-43EE-91D0-F2DDE0ECA869}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20.PLINQ-Degree-of-Parallelism", "..\ParallelProgrammingWithCSharp\20.PLINQ-Degree-of-Parallelism\20.PLINQ-Degree-of-Parallelism.csproj", "{0108F723-3AA1-4A7C-A84D-308640009FAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FA8736A7-1C04-407F-8792-0236806C3C53}"
+	ProjectSection(SolutionItems) = preProject
+		..\ParallelProgrammingWithCSharp\21.PLINQ-Cancellation-token\21.PLINQ-Cancellation-token.csproj = ..\ParallelProgrammingWithCSharp\21.PLINQ-Cancellation-token\21.PLINQ-Cancellation-token.csproj
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "22.PLINQ-Handling-exceptions", "..\ParallelProgrammingWithCSharp\22.PLINQ-Handling-exceptions\22.PLINQ-Handling-exceptions.csproj", "{3E566E4F-DE18-4A42-901B-20365B92E49B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +26,18 @@ Global
 		{FF81CB45-6A39-46CD-8251-A8A9A0F780E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF81CB45-6A39-46CD-8251-A8A9A0F780E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF81CB45-6A39-46CD-8251-A8A9A0F780E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9741A27-CF45-43EE-91D0-F2DDE0ECA869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9741A27-CF45-43EE-91D0-F2DDE0ECA869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9741A27-CF45-43EE-91D0-F2DDE0ECA869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9741A27-CF45-43EE-91D0-F2DDE0ECA869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0108F723-3AA1-4A7C-A84D-308640009FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0108F723-3AA1-4A7C-A84D-308640009FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0108F723-3AA1-4A7C-A84D-308640009FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0108F723-3AA1-4A7C-A84D-308640009FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E566E4F-DE18-4A42-901B-20365B92E49B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E566E4F-DE18-4A42-901B-20365B92E49B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E566E4F-DE18-4A42-901B-20365B92E49B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E566E4F-DE18-4A42-901B-20365B92E49B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
